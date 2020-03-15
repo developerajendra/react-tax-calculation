@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly app component 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <button>
+      click me
+    </button>
+  </div>
+  <header
+    className="App-header"
+  >
+    <span
+      className="title"
+    >
+      Tax Calculation
+    </span>
+     
+    <select
+      id="select"
+      name="yarSelect"
+      onChange={[Function]}
+    >
+      <option
+        value="2020"
+      >
+        2020
+      </option>
+      <option
+        value="2019"
+      >
+        2019
+      </option>
+    </select>
+    <form>
+      <h1>
+        2020
+      </h1>
+      <input
+        placeholder="Total Salary"
+        type="number"
+      />
+      <input
+        placeholder="Extra Allowence"
+        type="number"
+      />
+      <input
+        placeholder="HRA"
+        type="number"
+      />
+      <input
+        placeholder="80C"
+        type="number"
+      />
+      <input
+        placeholder="Internet"
+        type="number"
+      />
+      <input
+        placeholder="Books"
+        type="number"
+      />
+      <input
+        placeholder="Food Wallet"
+        type="number"
+      />
+      <input
+        placeholder="Training & Certification"
+        type="number"
+      />
+      <input
+        placeholder="LTA"
+        type="number"
+      />
+      <input
+        placeholder="Driver Salary"
+        type="number"
+      />
+      <input
+        placeholder="Fuel"
+        type="number"
+      />
+      <input
+        placeholder="80D"
+        type="number"
+      />
+      <button>
+        Get Summary
+      </button>
+    </form>
+  </header>
+</div>
+`;
+
+exports[`rener correctly form component 1`] = `
+Array [
+  <span
+    className="title"
+  >
+    title
+  </span>,
+  " ",
+  <select
+    id="select"
+    name="yarSelect"
+    onChange={[Function]}
+  >
+    <option
+      value="2020"
+    >
+      2020
+    </option>
+    <option
+      value="2019"
+    >
+      2019
+    </option>
+  </select>,
+  <form>
+    <h1>
+      2020
+    </h1>
+    <input
+      placeholder="Total Salary"
+      type="number"
+    />
+    <input
+      placeholder="Extra Allowence"
+      type="number"
+    />
+    <input
+      placeholder="HRA"
+      type="number"
+    />
+    <input
+      placeholder="80C"
+      type="number"
+    />
+    <input
+      placeholder="Internet"
+      type="number"
+    />
+    <input
+      placeholder="Books"
+      type="number"
+    />
+    <input
+      placeholder="Food Wallet"
+      type="number"
+    />
+    <input
+      placeholder="Training & Certification"
+      type="number"
+    />
+    <input
+      placeholder="LTA"
+      type="number"
+    />
+    <input
+      placeholder="Driver Salary"
+      type="number"
+    />
+    <input
+      placeholder="Fuel"
+      type="number"
+    />
+    <input
+      placeholder="80D"
+      type="number"
+    />
+    <button>
+      Get Summary
+    </button>
+  </form>,
+]
+`;
